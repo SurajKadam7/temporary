@@ -10,6 +10,8 @@ func main() {
 func calculate(a int, b int)  {
 	fmt.Println("Addition of", a, "and", b, "is", adding(a, b))
 	fmt.Println("Subtraction of", a, "and", b, "is", subtracting(a, b))
+	fmt.Println("Multiplication of", a, "and", b, "is", multiplying(a, b))
+	fmt.Println("Division of", a, "and", b, "is", dividing(a, b))
 }
 
 func adding(a int, b int) int {
@@ -18,4 +20,12 @@ func adding(a int, b int) int {
 
 func subtracting(a int, b int) int {
 	return a - b
+}
+
+func multiplying(a int, b int) int {
+	return a * b
+}
+
+func dividing(a int, b int) int {
+	return a / b
 }
