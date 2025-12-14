@@ -15,10 +15,12 @@ func calculate(a int, b int)  {
 }
 
 func adding(a int, b int) int {
+	fmt.Println("Adding", a, "and", b)
 	return a + b
 }
 
 func subtracting(a int, b int) int {
+	fmt.Println("Subtracting", a, "and", b)
 	return a - b
 }
 
